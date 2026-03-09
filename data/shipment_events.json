@@ -1,0 +1,23 @@
+[
+  {
+    "shipment_id": "S1001",
+    "supplier": "Global Parts Inc",
+    "product": "Sensor",
+    "status": "shipped",
+    "timestamp": "2025-03-01T10:00:00Z"
+  },
+  {
+    "shipment_id": "S1002",
+    "supplier": "Tech Components Ltd",
+    "product": "Controller",
+    "status": "in_transit",
+    "timestamp": "2025-03-02T12:30:00Z"
+  },
+  {
+    "shipment_id": "S1003",
+    "supplier": "Precision Devices",
+    "product": "Motor",
+    "status": "delivered",
+    "timestamp": "2025-03-03T15:45:00Z"
+  }
+]
