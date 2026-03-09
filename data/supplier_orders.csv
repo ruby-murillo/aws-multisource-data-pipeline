@@ -1,0 +1,4 @@
+order_id,supplier,product,quantity,date
+1001,Global Parts Inc,Sensor,50,2025-03-01
+1002,Tech Components Ltd,Controller,20,2025-03-02
+1003,Precision Devices,Motor,15,2025-03-03
