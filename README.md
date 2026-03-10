@@ -40,6 +40,19 @@ SQL
 PostgreSQL  
 AWS (conceptual architecture)
 
+## Architecture
+
+Data Sources
+(CSV / JSON / API)
+      ↓
+Python Ingestion
+      ↓
+AWS S3 Data Lake
+      ↓
+AWS Athena Queries
+      ↓
+Analytics / Reporting
+
 ## Future Enhancements
 
 • Load processed data into a warehouse (Redshift / PostgreSQL)  
