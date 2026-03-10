@@ -41,16 +41,21 @@ PostgreSQL
 AWS (conceptual architecture)
 
 ## Architecture
+Data flows through the pipeline as follows:
 
 Data Sources
 (CSV / JSON / API)
-      ↓
-Python Ingestion
-      ↓
-AWS S3 Data Lake
-      ↓
-AWS Athena Queries
-      ↓
+        │
+        ▼
+Python Ingestion Scripts
+        │
+        ▼
+AWS S3 Data Lake (Raw Storage)
+        │
+        ▼
+AWS Athena (Serverless Query Engine)
+        │
+        ▼
 Analytics / Reporting
 
 ## Future Enhancements
