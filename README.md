@@ -41,21 +41,19 @@ PostgreSQL
 AWS (conceptual architecture)
 
 ## Architecture
+
+The pipeline ingests data from multiple sources and prepares it for analytics using AWS services.
 Data flows through the pipeline as follows:
 
 Data Sources
 (CSV / JSON / API)
-        │
-        ▼
+↓
 Python Ingestion Scripts
-        │
-        ▼
+↓
 AWS S3 Data Lake (Raw Storage)
-        │
-        ▼
+↓
 AWS Athena (Serverless Query Engine)
-        │
-        ▼
+↓
 Analytics / Reporting
 
 ## Future Enhancements
