@@ -41,7 +41,7 @@ PostgreSQL
 AWS (conceptual architecture)
 
 ## Architecture
-
+```
 The pipeline ingests data from multiple sources and prepares it for analytics using AWS services.
 Data flows through the pipeline as follows:
 
@@ -55,7 +55,7 @@ AWS S3 Data Lake (Raw Storage)
 AWS Athena (Serverless Query Engine)
 ↓
 Analytics / Reporting
-
+```
 ## Future Enhancements
 
 • Load processed data into a warehouse (Redshift / PostgreSQL)  
